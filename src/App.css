@@ -1,0 +1,260 @@
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #faf2e4;
+}
+
+body {
+  background-color: #faf2e4;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@font-face {
+  font-family: "Navfont";   
+  src: local("navfont"),
+    url("/navfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Hometitlefont";   
+  src: local("hometitlefont"),
+    url("/hometitlefont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Subtitlefont";   
+  src: local("Subtitlefont"),
+    url("/subtitlefont.ttf") format("truetype");
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.navcont {
+  display: grid;
+  grid-auto-flow: column;
+  font-family: "Navfont";
+}
+
+.navlinkcont {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: end;
+  gap: 1.5vw;
+  font-size: 3vh;
+}
+
+.navhomelink {
+text-align: left;
+font-size: 4vh;
+padding: 0.2vh;
+border-bottom: solid;
+width: fit-content;
+}
+
+.homecont {
+  height: 80vh;
+  display: grid;
+  margin-top: 10vh;
+  justify-content: start;
+  text-align: start;
+  margin-left: 15vw;
+  align-content: start;
+}
+
+.introleader {
+  font-family: "Navfont";
+  font-size: 3vh;
+  font-weight: 600;
+  margin-bottom: 4vh;
+}
+
+.introname, .introtagline {
+  font-family: "Hometitlefont";
+  font-size: 7vh;
+}
+
+.introtagline {
+  margin-bottom: 4vh;
+}
+
+.introdesc {
+  font-family: "Subtitlefont";
+  font-size: 3.5vh;
+  width: 40vw;
+  margin-bottom: 5vh;
+}
+
+.introprompt {
+  padding: 1vh;
+  border: solid thin #646cffaa;
+  width: fit-content;
+  border-radius: 0.3vh;
+}
+
+.aboutcont {
+  display: grid;
+  height: 100vh;
+  align-content: start;
+}
+
+.abouttitle {
+  font-family: "Hometitlefont";
+  font-size: 5vh;
+  margin-bottom: 3vh;
+}
+
+.aboutdescimg {
+  width: 32vw;
+  height: 20vw;
+}
+
+.aboutdescpics {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 2vw;
+  justify-content: center;
+  margin-bottom: 4vh;
+}
+
+.aboutdescfirst, .aboutdescsecond {
+  width: 70vw;
+  font-family: "Subtitlefont";
+}
+
+.aboutdescfirst {
+  margin-bottom: 4vh;
+}
+
+.skillscont {
+  display: grid;
+}
+
+.skillstitle {
+  font-family: "Hometitlefont";
+  font-size: 5vh;
+  margin-bottom: 5vh;
+}
+
+.skillicons {
+  display: grid;
+  grid-auto-flow: column;
+  margin-bottom: 10vh;
+}
+
+.projectscont {
+  display: grid;
+}
+
+.projectimg {
+  width: 24vw;
+  height: 15vw;
+}
+
+.projectstitle {
+  font-family: "Hometitlefont";
+  font-size: 5vh;
+  margin-bottom: 5vh;
+}
+
+.tilelinkimg {
+  width: 3vh;
+  height: 3vh;
+}
+
+.projecttile {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 2vw;
+  margin-bottom: 4vh;
+}
+
+.projectrightside {
+  width: 20vw;
+  text-align: start;
+  display: grid;
+}
+
+.tiletitle {
+  font-family: "Navfont";
+  font-size: 3.5vh;
+}
+
+.tiledesc, .tilelangs {
+  font-family: "Subtitlefont";
+  color:black;
+}
+
+.tilelinkscont {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  gap: 1vw;
+}
+
+.contactcont {
+  display: grid;
+  margin-top: 10vh;
+  justify-content: center;
+  gap: 2vh;
+  margin-bottom: 5vh;
+}
+
+.contacttitle {
+  font-family: "Hometitlefont";
+  font-size: 5vh;
+}
+
+.contactdesc {
+  width: 30vw;
+  font-family: "Subtitlefont";
+}
+
+.contactbtn {
+  font-family: "Subtitlefont";
+  padding: 1vh;
+  border: solid thin #646cffaa;
+  border-radius: 0.3vh;
+  width: fit-content;
+}
+
+.contactbtnlink {
+  justify-self: center;
+}
