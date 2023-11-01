@@ -70,6 +70,7 @@ body {
   display: grid;
   grid-auto-flow: column;
   font-family: "Navfont";
+  align-content: center;
 }
 
 .navlinkcont {
@@ -86,6 +87,14 @@ font-size: 4vh;
 padding: 0.2vh;
 border-bottom: solid;
 width: fit-content;
+}
+
+.navlinkcont a:hover, .tiletitle:hover {
+  color:#E69598
+}
+
+.navhomelink:hover {
+  box-shadow: 6px 6px 2px #E69598;
 }
 
 .homecont {
@@ -257,4 +266,20 @@ width: fit-content;
 
 .contactbtnlink {
   justify-self: center;
+}
+
+.navresumelink {
+  padding: 0.8vh;
+  border: solid thin #646cffaa;
+  border-radius: 0.3vh;
+  width: fit-content;
+}
+
+.navresumelink:hover, .introprompt:hover, .contactbtn:hover {
+  box-shadow: 6px 6px 2px #E69598;
+}
+
+.projecttile:hover {
+  transform: scale(1.1);
+  transition: transform 0.8s;
 }
