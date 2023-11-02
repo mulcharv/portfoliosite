@@ -34,7 +34,7 @@ export default function Navbar() {
                 <a ref={contactref} href="#contact" onClick={contactClick}>
                     Contact
                 </a>
-                <a href={'/ResumeRahulMulchandani.pdf'} target="_blank">
+                <a href={'/ResumeRahulM.pdf'} target="_blank">
                 <div className="navresumelink">Resume</div>
                 </a>
             </nav>
