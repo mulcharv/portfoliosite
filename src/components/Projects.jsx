@@ -50,7 +50,7 @@ export default function About() {
                     </div>
                 </div>
                 </a>
-                <a href="mulcharv.github.io/shopping-cart/" target="_blank">
+                <a href="https://mulcharv.github.io/shopping-cart/" target="_blank">
                 <div className="projecttile">
                     <img className="projectimg" src={'/shoppingcartpic.png'}></img>
                     <div className="projectrightside">
@@ -64,7 +64,7 @@ export default function About() {
                             </a>
                         </div>
                         <div className="tilelinks">
-                            <a href="mulcharv.github.io/shopping-cart/" target="_blank">
+                            <a href="https://mulcharv.github.io/shopping-cart/" target="_blank">
                                 <img className="tilelinkimg" src={'/externallink.svg'} alt=''/>
                             </a>
                         </div>
@@ -72,7 +72,7 @@ export default function About() {
                     </div>
                 </div>
                 </a>
-                <a href="mulcharv.github.io/battleshipgame/" target="_blank">
+                <a href="https://mulcharv.github.io/battleshipgame/" target="_blank">
                 <div className="projecttile">
                     <img className="projectimg" src={'/battleshippic.png'}></img>
                     <div className="projectrightside">
@@ -86,7 +86,7 @@ export default function About() {
                             </a>
                         </div>
                         <div className="tilelinks">
-                            <a href="mulcharv.github.io/battleshipgame/" target="_blank">
+                            <a href="https://mulcharv.github.io/battleshipgame/" target="_blank">
                                 <img className="tilelinkimg" src={'/externallink.svg'} alt=''/>
                             </a>
                         </div>
