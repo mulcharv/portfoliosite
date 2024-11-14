@@ -13,7 +13,7 @@ export default function About() {
                 <div className='tiletitle'>Seat Swap</div>
                 <div className='tiledesc'>
                   A peer to peer seat exchange platform for airplane passengers
-                  to bypass seat selection fees charged by airlines
+                  to bypass seat selection fees charged by airlines.
                 </div>
                 <div className='tilelangs'>
                   React, Typescript, ShadCN, Auth0, Node.js, Express.js, PSQL,
